@@ -26,10 +26,10 @@ jobs:
           git mv ovos_skill_quiz_example "$module"
           grep -rlI --exclude-dir=.git -e ovos-skill-quiz-example -e ovos_skill_quiz_example -e emkay-voice/ovos-skill-quiz-example . \
             | xargs sed -i \
+                -e "s#emkay-voice/ovos-skill-quiz-example#$GITHUB_REPOSITORY#g" \
                 -e "s#ovos-skill-quiz-example.emkay-voice#$id#g" \
                 -e "s#ovos_skill_quiz_example#$module#g" \
-                -e "s#ovos-skill-quiz-example#$name#g" \
-                -e "s#emkay-voice/ovos-skill-quiz-example#$GITHUB_REPOSITORY#g"
+                -e "s#ovos-skill-quiz-example#$name#g"
           sed -i "s#^authors = .*#authors = [{name = \"$GITHUB_REPOSITORY_OWNER\"}]#" pyproject.toml
           git rm -q .github/workflows/make-it-yours.yml
           git config user.name "github-actions[bot]"
