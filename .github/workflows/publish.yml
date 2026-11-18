@@ -16,8 +16,10 @@ permissions:
   id-token: write
 jobs:
   pypi:
-    # not the template itself, only the skills made from it
-    if: github.repository != 'emkay-voice/ovos-skill-quiz-example'
+    # not the templates themselves (emkay-voice/ovos-skill-*-example) – written
+    # so that "Make it yours" and Emkay: New skill, which put your repository's
+    # name in place of the template's, leave this line alone
+    if: ${{ github.repository_owner != 'emkay-voice' || !endsWith(github.event.repository.name, '-example') }}
     runs-on: ubuntu-latest
     environment: pypi
     steps:
