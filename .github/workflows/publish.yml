@@ -17,7 +17,7 @@ permissions:
 jobs:
   pypi:
     # not the template itself, only the skills made from it
-    if: github.repository != 'emkay-voice/template-quiz'
+    if: github.repository != 'emkay-voice/ovos-skill-quiz-example'
     runs-on: ubuntu-latest
     environment: pypi
     steps:

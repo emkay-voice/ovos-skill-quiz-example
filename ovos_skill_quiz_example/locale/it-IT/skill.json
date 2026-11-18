@@ -1,6 +1,6 @@
 {
-  "skill_id": "ovos-skill-quiz.emkay-voice",
-  "source": "https://github.com/emkay-voice/template-quiz",
+  "skill_id": "ovos-skill-quiz-example.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-quiz-example",
   "name": "Quiz",
   "description": "Un piccolo quiz: ti fa domande e tiene il punteggio.",
   "examples": [

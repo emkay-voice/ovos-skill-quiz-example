@@ -3,7 +3,7 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ovos-skill-quiz"
+name = "ovos-skill-quiz-example"
 version = "0.1.0"
 description = "A small quiz: the skill asks questions and listens for your answers"
 readme = "README.md"
@@ -25,17 +25,17 @@ dependencies = [
 test = ["pytest", "ovos-bus-client"]
 
 [project.urls]
-Homepage = "https://github.com/emkay-voice/template-quiz"
+Homepage = "https://github.com/emkay-voice/ovos-skill-quiz-example"
 
 # how OpenVoiceOS finds the skill: "<skill id>" = "<package>:<class>"
 [project.entry-points."opm.skill"]
-"ovos-skill-quiz.emkay-voice" = "ovos_skill_quiz:QuizSkill"
+"ovos-skill-quiz-example.emkay-voice" = "ovos_skill_quiz_example:QuizSkill"
 
 [tool.setuptools]
-packages = ["ovos_skill_quiz"]
+packages = ["ovos_skill_quiz_example"]
 
 [tool.setuptools.package-data]
-ovos_skill_quiz = ["locale/**/*"]
+ovos_skill_quiz_example = ["locale/**/*"]
 
 [tool.pytest.ini_options]
 addopts = "--import-mode=importlib"

@@ -11,7 +11,7 @@ permissions:
   contents: write
 jobs:
   rename:
-    if: github.repository != 'emkay-voice/template-quiz'
+    if: github.repository != 'emkay-voice/ovos-skill-quiz-example'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,13 +23,13 @@ jobs:
           case "$name" in ovos-skill-*) ;; *) name="ovos-skill-$name" ;; esac
           module="${name//-/_}"
           id="$name.$owner"
-          git mv ovos_skill_quiz "$module"
-          grep -rlI --exclude-dir=.git -e ovos-skill-quiz -e ovos_skill_quiz -e emkay-voice/template-quiz . \
+          git mv ovos_skill_quiz_example "$module"
+          grep -rlI --exclude-dir=.git -e ovos-skill-quiz-example -e ovos_skill_quiz_example -e emkay-voice/ovos-skill-quiz-example . \
             | xargs sed -i \
-                -e "s#ovos-skill-quiz.emkay-voice#$id#g" \
-                -e "s#ovos_skill_quiz#$module#g" \
-                -e "s#ovos-skill-quiz#$name#g" \
-                -e "s#emkay-voice/template-quiz#$GITHUB_REPOSITORY#g"
+                -e "s#ovos-skill-quiz-example.emkay-voice#$id#g" \
+                -e "s#ovos_skill_quiz_example#$module#g" \
+                -e "s#ovos-skill-quiz-example#$name#g" \
+                -e "s#emkay-voice/ovos-skill-quiz-example#$GITHUB_REPOSITORY#g"
           sed -i "s#^authors = .*#authors = [{name = \"$GITHUB_REPOSITORY_OWNER\"}]#" pyproject.toml
           git rm -q .github/workflows/make-it-yours.yml
           git config user.name "github-actions[bot]"

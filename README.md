@@ -37,6 +37,14 @@ sentence was taken by the media player.
 - `ROUNDS` in `__init__.py` – how many it asks;
 - what it says when you are right (`right.dialog`) – one line is picked at random.
 
+## A working skill, and a template
+
+This is a complete OpenVoiceOS skill – install it and it works – and an
+example to start your own from: *Use this template* on GitHub, or
+*Emkay: New skill* in VS Code ([Emkay Dev](https://dev.emkay.ai)), which
+gives it your own names. Made for [Emkay](https://emkay.ai), it runs on any
+OpenVoiceOS.
+
 ## Try it
 
 - **Emkay Dev (VS Code):** *Emkay: Run the skill in Emkay* (Ctrl+Alt+E) opens

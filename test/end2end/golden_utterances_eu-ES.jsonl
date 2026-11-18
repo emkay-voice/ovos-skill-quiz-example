@@ -1,3 +1,3 @@
-{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "azter nazazu", "lang": "eu-ES", "intent_label": "start.intent"}
-{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "egin galdetegi bat", "lang": "eu-ES", "intent_label": "start.intent"}
-{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "egin galdera batzuk", "lang": "eu-ES", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz-example.emkay-voice", "utterance": "azter nazazu", "lang": "eu-ES", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz-example.emkay-voice", "utterance": "egin galdetegi bat", "lang": "eu-ES", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz-example.emkay-voice", "utterance": "egin galdera batzuk", "lang": "eu-ES", "intent_label": "start.intent"}

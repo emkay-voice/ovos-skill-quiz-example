@@ -1,3 +1,3 @@
-{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "frag mich ab", "lang": "de-DE", "intent_label": "start.intent"}
-{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "gib mir ein quiz", "lang": "de-DE", "intent_label": "start.intent"}
-{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "lass uns ein quiz machen", "lang": "de-DE", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz-example.emkay-voice", "utterance": "frag mich ab", "lang": "de-DE", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz-example.emkay-voice", "utterance": "gib mir ein quiz", "lang": "de-DE", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz-example.emkay-voice", "utterance": "lass uns ein quiz machen", "lang": "de-DE", "intent_label": "start.intent"}
