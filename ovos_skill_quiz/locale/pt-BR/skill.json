@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-quiz.emkay-voice",
+  "source": "https://github.com/emkay-voice/template-quiz",
+  "name": "Quiz",
+  "description": "Um pequeno quiz: ele faz perguntas e conta seus pontos.",
+  "examples": [
+    "Me faça um quiz",
+    "Me faça umas perguntas"
+  ],
+  "tags": [
+    "quiz",
+    "game",
+    "questions",
+    "emkay"
+  ]
+}

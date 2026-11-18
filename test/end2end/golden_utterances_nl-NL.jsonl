@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "overhoor me", "lang": "nl-NL", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "geef me een quiz", "lang": "nl-NL", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "laten we een quiz doen", "lang": "nl-NL", "intent_label": "start.intent"}

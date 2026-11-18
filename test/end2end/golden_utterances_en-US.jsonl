@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "quiz me", "lang": "en-US", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "give me a quiz", "lang": "en-US", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "let's do a quiz", "lang": "en-US", "intent_label": "start.intent"}

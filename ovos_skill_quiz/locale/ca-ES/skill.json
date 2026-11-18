@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-quiz.emkay-voice",
+  "source": "https://github.com/emkay-voice/template-quiz",
+  "name": "Concurs",
+  "description": "Un petit concurs: et fa preguntes i compta els teus punts.",
+  "examples": [
+    "Fes-me un concurs",
+    "Fes-me unes preguntes"
+  ],
+  "tags": [
+    "quiz",
+    "game",
+    "questions",
+    "emkay"
+  ]
+}

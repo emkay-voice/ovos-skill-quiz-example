@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "quiz mig", "lang": "da-DK", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "giv mig en quiz", "lang": "da-DK", "intent_label": "start.intent"}
+{"skill_id": "ovos-skill-quiz.emkay-voice", "utterance": "lad os tage en quiz", "lang": "da-DK", "intent_label": "start.intent"}
