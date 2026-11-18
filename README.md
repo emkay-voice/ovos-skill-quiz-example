@@ -43,7 +43,7 @@ sentence was taken by the media player.
   Emkay next to your code and loads the skill; type under Emkay to talk to it.
   Every save loads it again. *Emkay: Test the skill* sends the golden
   utterances and shows ✓ / ✗ in the Testing view. Emkay's menu →
-  *What's happening?* shows which skill took a sentence, and why.
+  *Guardian* → *What's happening?* shows which skill took a sentence, and why.
 - **ovos-tui-client (Codespaces, Dev Container):** run `ovos-tui` in the
   terminal, type to talk, `Ctrl+P` → *Test* runs the same golden utterances
   against a full OpenVoiceOS.
@@ -53,7 +53,11 @@ When you make a repository from this template ("Use this template"), a
 small workflow renames the skill after your repository and then removes
 itself.
 
-## On your own Emkay, and into the store
+## Show it, on your own Emkay, and into the store
+
+To show it in [See my skill](https://dev.emkay.ai/#gallery) on dev.emkay.ai –
+ready or not – add the topic `emkay-skill` to the repository (the ⚙ next to
+*About*). Remove the topic, or make the repository private, to take it away.
 
 *Emkay: Send to my Emkay* shows a QR code that installs this skill from
 GitHub on the Emkay you scan it with. To get it into the
